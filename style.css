@@ -1,0 +1,32 @@
+.logo {
+  font-size: 40px;
+}
+#banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  
+}
+
+nav ul li {
+  margin: 0 10px;
+  float: left;
+}
+nav a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+.btn{
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+}
