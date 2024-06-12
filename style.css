@@ -1,32 +1,45 @@
-.logo {
+
+
+.nav-section {
+  display: flex;
+}
+
+#logo {
+  border: 2px tomato dashed;
+  width: 50%;
+  background-color: rgb(30,30,30);
+}
+
+.logo-item{
   font-size: 40px;
-}
-#banner {
-  display: flex;
-  justify-content: space-between;
+  color: #fd6f00;
+  margin-left: 16px;
 }
 
-nav ul {
-  display: flex;
-  list-style: none;
-  
+.list-section{
+  border: 2px tomato dashed;
+  width: 50%;
+  background-color: rgb(30,30,30);
+  padding: 16px;
 }
 
-nav ul li {
-  margin: 0 10px;
-  float: left;
+.list-item {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-nav a{
-    display: block;
-    padding: 10px 15px;
-    text-decoration: none;
-    text-align: center;
+
+.list-item a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
-.btn{
-    display: block;
-    padding: 10px 10px;
-    text-decoration: none;
-    text-align: center;
-    width: 120px;
-    height: 40px;
+.btn-primary {
+  font-size: 20px;
+  color: white;
+  background-color: #fd6f00;
+  border-color: #fd6f00;
+  border-radius: 8px;
+  padding: 10px 16px;
 }
